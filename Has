@@ -8,7 +8,7 @@ local Dupe = Window:NewTab("DUPE")
 
 local DupeSection = Dupe:NewSection("Dupe v2 (OP)")
 
-DupeSection:NewButton("DUPE (wait 20 secs after clicking button)", "Op DUPE SCRIPT", function()
+DupeSection:NewButton("DUPE (wait 5 secs after clicking button)", "Op DUPE SCRIPT", function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6169/Project-WD/main/Main.lua"))()
 
